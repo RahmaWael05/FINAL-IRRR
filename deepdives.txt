@@ -1,0 +1,38 @@
+Deep Dives
+
+
+problem: a robot breaks down or loses connection mid-task
+solution: Robots continuously report their status, location, and battery level.
+
+
+
+
+ problem: item is left uncollected or collected twice(duplication request)
+solution :unique (custmer-id,item-id)
+
+problem:search problem
+solution:Elastic search(filtering,ranking,search by category)
+
+problem :too much requests
+solution: use loadBalance+ muliple servers(Autoscaing,multiple in stance)
+
+
+Back-Of-The-Envelope Estimation :
+ASSUME:
+
+10 million registed user
+1 million DAU
+=100 Requests/user/day
+
+so,
+1M*100requests/day
+
+100M/86400
+=1157 request/sec (approxmetly)
+
+so 
+1.2KQPA average 
+
+
+
+
